@@ -33,9 +33,7 @@ class Program
                     
                 case "3":
                     // Save journal to file
-                     Console.Write("Enter filename to save: ");
-                    string filename = Console.ReadLine();
-                    journal.SaveToFile(filename);
+                    journal.SaveToFile(string file);
                     break;
                     
                 case "4":
